@@ -36,6 +36,7 @@ public class WordManager {
             }
             else if(menu==2) {
                 //list_grade
+                wordCRUD.searchLevel();
             }
             else if(menu==3) {
                 //search
