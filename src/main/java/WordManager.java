@@ -40,6 +40,7 @@ public class WordManager {
             }
             else if(menu==3) {
                 //search
+                wordCRUD.searchWord();
             }
             else if(menu==4) {
                 //create
