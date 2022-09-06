@@ -24,7 +24,7 @@ public class WordManager {
     public void start() {
         while(true) {
             int menu = selectMenu();
-            System.out.println(menu);
+            //System.out.println(menu);
             if(menu==0) {
                 System.out.println("사전을 종료합니다.");
                 break;
@@ -45,6 +45,7 @@ public class WordManager {
             }
             else if(menu==5) {
                 //update
+                wordCRUD.updateItem();
             }
             else if(menu==6) {
                 //delete
