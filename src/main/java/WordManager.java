@@ -41,7 +41,7 @@ public class WordManager {
             }
             else if(menu==4) {
                 //create
-                wordCRUD.addWord();
+                wordCRUD.addItem();
             }
             else if(menu==5) {
                 //update
@@ -49,6 +49,7 @@ public class WordManager {
             }
             else if(menu==6) {
                 //delete
+                wordCRUD.deleteItem();
             }
             else if(menu==7) {
                 //Save
