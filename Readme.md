@@ -43,3 +43,7 @@
 #### 파일 저장 후
 
 <img src="/screenshots/7-2.png" width="60%" height="60%">
+
+## 단어장 생성 이후 전체 단어 확인 (menu 1을 통해 파일 불러오기)
+
+<img src="/screenshots/1-1.png" width="60%" height="60%">
